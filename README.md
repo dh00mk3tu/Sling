@@ -1,16 +1,15 @@
 # Sling
 
 Backdoor/Malware test in C. Uses two segments - Backdoor and Server; Backdoor works on windows machines and Server on Linux. No masking yet.
-<br>
+___
 ### Components 
-<br>
 
 #### Backdoor.c
 ##### The backdoor file is the one that will be deplyed on the Windows machine. 
 ##### The code is written in C; and it should be Compiled  using the following command on a Linux machine to have a 32bit application 
 ##### which can be deployed on Windows systems.
 
-'''
+'''c
 i686-w64-mingw32-gcc -o test.exe filename.c 
 '''
 
