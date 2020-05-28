@@ -53,8 +53,8 @@ The second method is pretty straight forward and simple. It is recommended for m
 You will download a pre compiled version of the Malware; compiled by me.
 Note: I update the prefab files rather frequently so they could be a version or two behind from the source. But it'll work as long as the server and the backdoor are of the same version. 
  	
-Download the precompiled version of Sling from the link below 
-[Pre-Fab](https://github.com/dh00mk3tu/Sling/tree/master/PreFabs")
+Download the precompiled version of Sling from here :  
+[Pre-Fab](https://github.com/dh00mk3tu/Sling/tree/master/PreFabs)
 
 ___
 
