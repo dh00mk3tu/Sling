@@ -8,8 +8,6 @@
 #include <arpa/inet.h>
 
 
-// v1.2 lmao
-// Authored By : dh00mk3tu | Anirudh Rath
 int main()
 {
 	int sock, client_socket;
@@ -28,8 +26,8 @@ int main()
 	}
 
 	server_address.sin_family = AF_INET;
-	server_address.sin_addr.s_addr = inet_addr("192.168.0.102");
-	server_address.sin_port = htons(50005);
+	server_address.sin_addr.s_addr = inet_addr("192.168.0.105");
+	server_address.sin_port = htons(8002);
 
 	bind(sock, (struct sockaddr *) &server_address, sizeof(server_address));
 	listen(sock, 5);

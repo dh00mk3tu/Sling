@@ -143,8 +143,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int 
 	char *ServIP;
 	WSADATA wsaData;
 
-	ServIP = "192.168.0.102"; //Change this IP to your system IP 
-	ServPort = 50005; // Change this port number to any open port on your system
+	ServIP = "192.168.0.105"; //Change this IP to your system IP
+	ServPort = 8002; // Change this port number to any open port on your system
 
 	if (WSAStartup(MAKEWORD(2,0), &wsaData) != 0) {
 		exit(1);
